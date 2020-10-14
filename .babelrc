@@ -1,0 +1,14 @@
+{
+  "presets": [
+    ["env", { "modules": false }],
+    "stage-3"
+  ],
+  "plugins": ["syntax-dynamic-import","transform-runtime", [
+    "component",
+    {
+      "libraryName": "element-ui",
+      "styleLibraryName": "theme-chalk"
+    }
+  ]]
+}
+//["import",{"libraryName":"iview","libraryDirectory":"src/components"}]
