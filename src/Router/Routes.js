@@ -46,7 +46,7 @@ const router = new VueRouter({
             component: Login
         }
     ],
-    mode: "history"
+    mode: "hash"
 });
 allSafe(router);
 
